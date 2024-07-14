@@ -39,5 +39,5 @@ console.log(userName)
 
 // Activity 5
 // Task 6
- is_alive=false
+ is_alive=false // This will be error
 // TypeError: Assignment to constant variable. 
