@@ -35,5 +35,5 @@ userName = "Roach"
 console.log(userName)
 
 // Task 6
- is_alive=false // This will be error
+ is_alive = false // This will be error
 // TypeError: Assignment to constant variable. 
