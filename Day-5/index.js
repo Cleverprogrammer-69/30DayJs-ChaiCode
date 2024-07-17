@@ -70,7 +70,7 @@ const factorial = (number) =>{
     }
     return fact
 }
-const factOfSquare = (fn1, fn2, n) => {
+const factorialOfSquare = (fn1, fn2, n) => {
     return fn2(fn1(n))
 }
-console.log(factOfSquare(square, factorial, 2));
+console.log(factorialOfSquare(square, factorial, 2)); // output 24 in this case
