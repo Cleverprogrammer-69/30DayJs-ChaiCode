@@ -36,11 +36,11 @@ console.log(`${num3} + ${num4} = ${Sum(num1, num2)}`)
 const hasChar =  (str, char) => {
   return str.includes(char);
 };
-let str3 = "Be a Programmer, not a frameworker";
+let str3 = "Be an Engineer, not a frameworker";
 console.log(hasChar(str3, "B"));
 
 // Task 7
-const getProduct = (num1, num2 = 1) => num1 * num2
+const getProduct = (num1, num2 = 2) => num1 * num2
 let num5 = 56, num6 = 10
 console.log(`Product of ${num5} = ${getProduct(num5)}`)
 console.log(`Product of ${num5} and ${num6} = ${getProduct(num5, num6)}`);
@@ -74,3 +74,11 @@ const factorialOfSquare = (fn1, fn2, n) => {
     return fn2(fn1(n))
 }
 console.log(factorialOfSquare(square, factorial, 2)); // output 24 in this case
+
+
+
+
+
+
+
+
