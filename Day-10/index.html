@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     button{
+            color: black;
+            /* background-color: rgb(196, 196, 196); */
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+            font-weight: 600;
+            font-size: 14px;
+            transition: ease-in 0.3s ;
+            margin-right: 5px;
+        }
+        button:hover{
+            background-color: rgb(27, 27, 27);
+            color: white;
+            border: 1px solid white
+
+        }
+        
+        </style>
+</head>
+<body>
+    <p class="intro">Hello</p>
+    <button class="paraChanger">paraChanger</button>
+    <button class="visiChanger">visibility toggler</button>
+    <img id="myImage" src="1.jpg" alt="myImage" width="200px" height="200px">
+    <form id="registerForm" method="get">
+        <input type="text" id="name" name="name">
+        <input type="text" id="number" name="number">
+        <input type="text" id="email" name="email">
+        <button type="submit" id="submit" >Submit</button>
+    </form>
+    <select id="fruits">
+        <option value="apple" class="option" >Apple</option>
+        <option value="banana" class="option" >Banana</option>
+        <option value="orange" class="option" >Orange</option>
+    </select>
+    <p id="fruit"></p>
+    <ul id="countries">
+        <li>USA</li>
+        <li>Turkey</li>
+        <Li>Azerbeijan</Li>
+        <li>Japan</li>
+        <li>Russia</li>
+        <li>India</li>
+    </ul>
+    <div id="parent">
+
+    </div>
+    <script src="/Day-10/index.js"></script>
+</body>
+</html>
