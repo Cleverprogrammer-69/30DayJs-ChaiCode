@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px;
+            background-color: black;
+        }
+        button{
+            color: black;
+            /* background-color: rgb(196, 196, 196); */
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+            font-weight: 600;
+            font-size: 14px;
+            transition: ease-in 0.3s ;
+            margin-right: 5px;
+        }
+        button:hover{
+            background-color: rgb(27, 27, 27);
+            color: white;
+            border: 1px solid white
+
+        }
+        .myImg{
+            border-radius: 50%;
+            border: 3px solid white
+        }
+    </style>
+</head>
+<body style="background-color: rgb(27, 27, 27);color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div class="nav">
+        <h3>JS Lovers</h3>
+        <div>
+            <button class="authBtn">Login</button>
+            <button class="authBtn">Signup</button>
+        </div>
+    </div> 
+    <h1 style="" id="mainHeading" onclick="headingContentChanger()">Day 9</h1>
+    <p class="impText">Day 9 of a javascript challenge. Topic DOM mainpulation</p>
+    <ul class="tech">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>ReactJs</li>
+    </ul>
+    <img src="1.jpg" alt="cake image" width="200px">
+    <button class="action" onclick="removeSignup()">remove Signup</button>
+    <button class="action" onclick="removeLastElem()">remove last Element of Body</button>
+    <button class="action" onclick="imageChanger()">Change Image</button>
+    <button class="action" onclick="magic()">Change Image style</button>
+    <button id="para">Change para</button>
+    <script src="../Day-9/index.js"></script>
+</body>
+</html>
